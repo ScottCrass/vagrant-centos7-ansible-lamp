@@ -1,11 +1,12 @@
 Vagrant Centos 7 lamp using Ansible playbook
 =========================================
 
-[![Issues](https://img.shields.io/github/issues/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/skecskes/vagrant-centos7-ansible-lamp/issues) 
-[![Forks](https://img.shields.io/github/forks/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/skecskes/vagrant-centos7-ansible-lamp/network) 
+[![Issues](https://img.shields.io/github/issues/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/swcrass/vagrant-centos7-ansible-lamp/issues) 
+[![Forks](https://img.shields.io/github/forks/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/swcrass/vagrant-centos7-ansible-lamp/network) 
 [![Stars](https://img.shields.io/github/stars/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/skecskes/vagrant-centos7-ansible-lamp/stargazers) 
 [![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=plastic)](LICENSE)
 
+This is a fork of [skecskes's work](https://github.com/skecskes/vagrant-centos7-ansible-lamp/stargazers) to allow use on windows.
 
 This personal development VM with Ansible provisioning is **fully working example**. I created this VM in order to 
 have a proper php testbed for my php applications. After vagrant up, the main url will welcome you with phpinfo(). 
@@ -21,8 +22,6 @@ I am using the lastest CentOS 7 x64 image from official [Hashicorp](https://atla
 - [Vagrant](https://docs.vagrantup.com/v2/installation/)
 - guest additions to Vagrant `vagrant plugin install vagrant-vbguest`
 - [Git](https://git-scm.com/)
-- [Ansible](http://docs.ansible.com/ansible/intro_installation.html)
-- rsync
 
 ## How to run
 
@@ -33,11 +32,11 @@ terminal and run these commands:
 	$ cd /var/www
 	$ mkdir project
 	$ cd project
-	$ git clone https://github.com/skecskes/vagrant-centos7-ansible-lamp.git
+	$ git clone https://github.com/swcrass/vagrant-centos7-ansible-lamp.git
 	$ cd vagrant-centos7-ansible-lamp/
 	$ vagrant up
 
-Your /var/www/project folder will be synced with with vagrants apache root directory. 
+
 Note, that if you run it first time, vagrant will download the guest OS (414 MB of Centos 7 in this case) box 
 from internet, which in my case took 8 minutes and will save it locally so that vagrant can use it later.
 
