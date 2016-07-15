@@ -1,9 +1,9 @@
 Vagrant Centos 7 lamp using Ansible playbook
 =========================================
 
-[![Issues](https://img.shields.io/github/issues/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/swcrass/vagrant-centos7-ansible-lamp/issues) 
-[![Forks](https://img.shields.io/github/forks/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/swcrass/vagrant-centos7-ansible-lamp/network) 
-[![Stars](https://img.shields.io/github/stars/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/skecskes/vagrant-centos7-ansible-lamp/stargazers) 
+[![Issues](https://img.shields.io/github/issues/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/ScottCrass/vagrant-centos7-ansible-lamp/issues) 
+[![Forks](https://img.shields.io/github/forks/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/ScottCrass/vagrant-centos7-ansible-lamp/network) 
+[![Stars](https://img.shields.io/github/stars/skecskes/vagrant-centos7-ansible-lamp.svg?style=plastic)](https://github.com/ScottCrass/vagrant-centos7-ansible-lamp/stargazers) 
 [![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=plastic)](LICENSE)
 
 This is a fork of [skecskes's work](https://github.com/skecskes/vagrant-centos7-ansible-lamp/stargazers) to allow use on windows.
